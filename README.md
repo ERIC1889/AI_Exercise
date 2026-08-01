@@ -13,7 +13,7 @@
 | `packages/contracts/` | ★ 단일 계약 원본 — JSON Schema, fixture, TS/Python 생성 타입 | 공동 (변경 시 상호 승인) |
 | `packages/domain-core/` | 순수 TS 도메인 규칙 (accuracy 수식 포함) | 준영 |
 | `packages/database/` | Prisma schema + migrations | 준영 |
-| `apps/web/` | Next.js + MediaPipe (좌표 추출은 브라우저에서, 영상은 전송 안 함) | 준영 |
+| `apps/mobile/` | React Native + Expo + MediaPipe 온디바이스 (좌표만 추출, 영상은 전송 안 함) | 준영 |
 | `apps/api/` | NestJS — 모듈(session·ingest·repetition·posture·safety·plan·coaching·report·notification) + AI Agent 모듈 | 준영 |
 | `apps/api/src/architecture/` | ports(ProcessingPipelinePort 등) / sync·event 어댑터 — RQ1 비교 구조 | 준영 |
 | `services/vision/` | Python FastAPI 분석 서비스 | 친구 (셀프 머지 구역) |
